@@ -1,4 +1,7 @@
 #pragma once
+
+using namespace std;
+
 class Type
 {
 private:
@@ -24,11 +27,9 @@ public:
 		cin >> grade;
 	}
 
-	void showtype()
+	void showtype() const
 	{
 		cout << "\nDimensions: " << dimensions;
 		cout << "\nVariety: " << grade;
 	}
 };
-
-//V1
